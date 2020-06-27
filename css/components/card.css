@@ -1,0 +1,46 @@
+.card-container {
+  background-color: white;
+  height: 400px;
+  border-radius: 4px;
+  box-shadow: 4px 4px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.card-container img{
+  height: 65%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.small-below-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+
+.below-container {
+padding: 2%;
+}
+
+.below-container h3 {
+  margin: 0px;
+  margin-bottom: 16px;
+
+}
+
+.small-left-box {
+  display: flex;
+  align-items: center;
+}
+.small-left-box img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin-right: 8px;
+}
+
+.right-box {
+  display: flex;
+  align-items: center;
+}
+
